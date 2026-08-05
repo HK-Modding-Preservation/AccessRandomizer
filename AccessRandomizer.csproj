@@ -74,6 +74,9 @@
     <Reference Include="Assembly-CSharp-firstpass">
       <HintPath>$(LocalRefs)/Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
+    <Reference Include="ConnectionSettingsRando">
+      <HintPath>$(LocalRefs)/Mods/ConnectionSettingsRando/ConnectionSettingsRando.dll</HintPath>
+    </Reference>
     <Reference Include="FStats">
       <HintPath>$(LocalRefs)/Mods/FStats/FStats.dll</HintPath>
     </Reference>

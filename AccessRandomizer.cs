@@ -43,6 +43,9 @@ namespace AccessRandomizer
                 slyDoor = preloads["Crossroads_04"]["_Transition Gates/Mender Door"];
                 AccessManager.Hook();
                 
+                if (ModHooks.GetMod("ConnectionSettingsRando") is Mod)
+                    CSR_Interop.Hook();
+
                 if (ModHooks.GetMod("RandoSettingsManager") is Mod)
                     RSM_Interop.Hook();
                 
